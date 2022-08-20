@@ -34,6 +34,18 @@
       "required": true
     },
     "Poster": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "genre": {
+      "type": "string",
+      "required": true
+    },
+    "Banner": {
       "allowedTypes": [
         "images"
       ],
