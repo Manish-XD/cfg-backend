@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kycs",
+  "info": {
+    "singularName": "kyc",
+    "pluralName": "kycs",
+    "displayName": "KYC",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "house_no": {
+      "type": "string",
+      "required": true
+    },
+    "area_street": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "pincode": {
+      "type": "integer",
+      "required": true
+    },
+    "landmark": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
