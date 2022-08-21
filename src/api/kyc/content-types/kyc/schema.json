@@ -39,10 +39,11 @@
       "type": "integer",
       "required": true
     },
-    "users_permissions_user": {
+    "user": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "kyc"
     }
   }
 }
