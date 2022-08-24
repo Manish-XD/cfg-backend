@@ -36,7 +36,7 @@
       "type": "string"
     },
     "phone": {
-      "type": "integer",
+      "type": "biginteger",
       "required": true
     },
     "user": {
