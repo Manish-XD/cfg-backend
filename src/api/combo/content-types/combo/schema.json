@@ -4,7 +4,8 @@
   "info": {
     "singularName": "combo",
     "pluralName": "combos",
-    "displayName": "Combo"
+    "displayName": "Combo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,60 +22,64 @@
       "required": true
     },
     "mainImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "details": {
       "type": "string",
       "required": true
     },
-    "consolePrice": {
+    "consolePrice1": {
       "type": "integer",
       "required": true
     },
-    "gamesPrice": {
+    "gamesPrice1": {
       "type": "integer",
       "required": true
     },
     "extraImage1": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "extraImage2": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "extraImage3": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "extraImage4": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "extraImage5": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "private": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "extraImage2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "extraImage3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "extraImage4": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "extraImage5": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "whatsInTheBoxText1": {
       "type": "string"
@@ -98,53 +103,78 @@
       "type": "string"
     },
     "whatsInTheBoxImage1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsInTheBoxImage2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsInTheBoxImage3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsInTheBoxImage4": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsInTheBoxImage5": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsInTheBoxImage6": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsInTheBoxImage7": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "consolePrice2": {
+      "type": "integer"
+    },
+    "gamePrice2": {
+      "type": "integer"
+    },
+    "consolePrice3": {
+      "type": "integer"
+    },
+    "gamePrice3": {
+      "type": "integer"
+    },
+    "consolePrice4": {
+      "type": "integer"
+    },
+    "gamePrice4": {
+      "type": "integer"
     }
   }
 }

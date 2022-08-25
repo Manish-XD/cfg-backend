@@ -44,6 +44,27 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "kyc"
+    },
+    "Selfie": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "proof": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "signature": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
