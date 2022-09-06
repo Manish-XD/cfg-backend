@@ -30,14 +30,14 @@
       ]
     },
     "details": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "consolePrice1": {
       "type": "integer",
       "required": true
     },
-    "gamesPrice1": {
+    "gamePrice1": {
       "type": "integer",
       "required": true
     },
