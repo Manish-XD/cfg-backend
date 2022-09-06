@@ -37,10 +37,6 @@
       "type": "integer",
       "required": true
     },
-    "gamePrice1": {
-      "type": "integer",
-      "required": true
-    },
     "extraImage1": {
       "type": "media",
       "multiple": false,
@@ -161,19 +157,10 @@
     "consolePrice2": {
       "type": "integer"
     },
-    "gamePrice2": {
-      "type": "integer"
-    },
     "consolePrice3": {
       "type": "integer"
     },
-    "gamePrice3": {
-      "type": "integer"
-    },
     "consolePrice4": {
-      "type": "integer"
-    },
-    "gamePrice4": {
       "type": "integer"
     }
   }
