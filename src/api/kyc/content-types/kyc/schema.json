@@ -45,38 +45,25 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "kyc"
     },
-    "Selfie": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos",
-        "audios",
-        "files"
-      ]
+    "selfie": {
+      "type": "text",
+      "required": true
     },
-    "proof": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos",
-        "audios",
-        "files"
-      ]
+    "address_proof": {
+      "type": "string",
+      "required": true
+    },
+    "identity_proof_front": {
+      "type": "string",
+      "required": true
+    },
+    "identity_proof_back": {
+      "type": "string",
+      "required": true
     },
     "signature": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos",
-        "audios",
-        "files"
-      ]
+      "type": "string",
+      "required": true
     }
   }
 }
