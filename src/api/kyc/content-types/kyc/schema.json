@@ -64,6 +64,16 @@
     "signature": {
       "type": "string",
       "required": true
+    },
+    "proof2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
