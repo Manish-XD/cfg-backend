@@ -50,22 +50,6 @@
       "required": true
     },
     "address_proof": {
-      "type": "string",
-      "required": true
-    },
-    "identity_proof_front": {
-      "type": "string",
-      "required": true
-    },
-    "identity_proof_back": {
-      "type": "string",
-      "required": true
-    },
-    "signature": {
-      "type": "string",
-      "required": true
-    },
-    "proof2": {
       "allowedTypes": [
         "images",
         "files",
@@ -73,7 +57,41 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true
+    },
+    "identity_proof_front": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "identity_proof_back": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "signature": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
